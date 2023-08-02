@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Fundamentos Aula 7</title>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="tags,css,html5"/>
+	<meta name="descrption" content="Aula de HTML5 com CSS">
+</head>
+
+<body>
+	<header>Tipos de Links</header>
+	<section>
+		<article id="inicio">
+			<p>
+				Link absoluto: </br> 
+				<a href="http://www.impacta.com.br" target="_blank" alt="Site da impacta" > Impacta Certificação e Treinamento</a>
+			</p>
+
+			<p>
+				Link relativo: </br>
+				<a href="C:\Users\gabri\OneDrive\Documentos\Impacta\Nano\HTML5\docs\exercicio1 Fundamentos Aula 3.html" target="_blank" alt="Aula Anterior" > Aula anterior </a>
+			</p>
+
+			<p>
+				Link com Imagem: </br>
+				<a href="http://www.impacta.com.br" target="_blank" alt="Site da impacta" >
+				<img src="../imagens/Imagem1.jpg" border="0" />
+				</a>
+			</p>
+
+			<p>
+				Link ampliar Imagem: </br>
+				<a href="../imagens/Imagem1.jpg" width="600px" target="_blank" alt="Imagem ampliada" >
+					[+] ampliar
+				</a>
+			</p>
+
+			<p>
+				Link para email: </br>
+				<a href="mailto:gabrielsilva.infotech@gmail.com?subject=HTML5 Fundamentos" target="_blank" alt="Fale Conosco" >
+					Fale Conosco
+				</a>
+			</p>
+			<p>
+				Link para Download: </br>
+				<a href="arquivo.zip">DOWNLOAD</a>
+			</p>
+
+		</article>
+	</section>
+	<hr>
+	<section>
+		<header>
+			<h1>Tipos de Listas</h1>
+		</header>
+		<p> Lista Ordenada 
+			<ol> <!-- Atributos: start=" " type=" " -->
+				<li>Java Script</li>
+				<li>HTML5</li>
+				<li>CSS3</li>
+			</ol>
+		</p>
+		
+		<p> Lista não Ordenada
+			<ul> <!-- Atributos: type=" " -->
+				<li>IMPACTA</li>
+				<li>Alura</li>
+				<li>FIAP</li>
+			</ul>
+		</p>
+
+		<p> Lista de definição
+			<dl> <!-- Atributos: type=" " -->
+				<dt>Capitulo 1</dt>
+					<dd>Primeiro item</dd>
+					<dd>Segundo item</dd>
+					<dd>Terceiro item</dd>
+				<dt>Capitulo 2</dt>
+					<dd>Primeiro item</dd>
+					<dd>Segundo item</dd>
+					<dd>Terceiro item</dd>	
+			</dl>
+		</p>
+	</section>
+	<hr>
+	<section>
+		<header>
+			<h1>Tabelas</h1>
+		</header>
+		<p>
+			<table border="1" >
+				<thead>
+					<th>Código</th>
+					<th>Nome</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>IMPACTA</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Alura</td>
+					</tr>
+					<tr>
+						<td colspan="2">Faculdades</td> <!-- rowspan " " -->
+					</tr>
+				</tbody>
+			</table>
+		</p>
+		<p>
+			<table border="1">
+
+				<thead>
+					<th colspan="5">Relatório Financeiro</th>
+				</thead>		
+				<thead>
+					
+					<th>Cliente</th>
+					<th>Ano Apuração</th>
+					<th>Total Vendido</th>
+					<th>Total Pago</th>
+					<th>VIP</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>HTML5 Dev</td>
+						<td>2013</td>
+						<td>R$ 500.000,00</td>
+						<td>R$ 459.000,00</td>
+						<td>sim</td>
+					</tr>
+				</tbody>
+			</table>
+		</p>
+	</section>
+	<hr>
+	<section>
+		<main role="main">
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">
+					Endereço: Av. Paulista, 1009
+				</span>	
+			
+			
+			Empresa: Impacta Certificação e Treinamento
+			
+			Tel: (11) 3254-2200
+			Site: www.impacta.com.br
+			</div>
+		</main>
+	</section>
+	<aside>
+		<!-- Aréa para anúncios -->
+	</aside>
+	<footer>
+		&copy 2023 - Todos os direitos reservados.
+	</footer>
+</body>
+</html>

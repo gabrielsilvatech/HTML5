@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#Menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(51, 49, 72);
+    transition: background .6s;
+   
+}
+
+#Menu li {
+    display: inline;
+    
+}
+
+#Menu li a {
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;  
+}
+
+#conteudo {
+	margin-top: 20px;
+    float: left;
+    border: 5px outset red;
+    background-color: rgba(127, 255, 212, 0.101);
+    width: 300px;
+	
+}
+
+
+#curso1 {
+	margin-top: 20px;
+	float: left;
+	border: 5px outset rgb(222, 15, 15);
+    background-color: rgb(107, 102, 113);
+    width: 300px;
+	clear: left;
+}
+
+#curso2 {
+	margin-top: 20px;
+	float: left;
+    border: 5px outset rgb(222, 15, 15);
+    background-color: rgb(107, 102, 113);
+    width: 300px;
+    clear: left;
+}
+
+#curso3 {
+	margin-top: 20px;
+	float: left;
+    border: 5px outset rgb(222, 15, 15);
+    background-color: rgb(107, 102, 113);
+    width: 300px;
+    clear: left;
+}
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Fundamentos Aula 9</title>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="tags,css,html5"/>
+		<meta name="descrption" content="Aula de HTML5 com CSS">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href= "../css/estiloAula10.css"/>
+	</head>
+
+	<body>
+
+		<section id="s1">
+			<header>
+				<h1>
+					FORMULÁRIOS
+				</h1>
+			</header>
+			<hr/>
+				<form method="get" action="">
+					Nome: <input type="text" placeholder="Digite seu nome" required> <br/>
+					
+					E-mail: <input type="email" required placeholder="Digite seu email"> <br/>
+					
+					Quantidade de dependentes: <input class="ajuste" type="number" min="0" max="4" required> <br/>
+					
+					CEP: <input type="text" required pattern="[0-9]{8}" placeholder="Digite somente números sem hífen"> <br/>
+					
+					Deseja receber novidades do site ? <br/>					
+					Sim <input type= "radio" name="novidade" value="sim" class="ajuste" checked>
+					Não <input type= "radio" name="novidade" value="nao" class="ajuste"> <br/>
+					
+					Confira nossos serviços:
+					<input list="servicos">
+					<datalist id="servicos">
+						<option value="Administração">
+						<option value="Contabilidade">
+						<option value="Financeiro">
+					</datalist> <br/>
+					<textarea name="comentario" id="" cols="30" rows="10" placeholder="Deixe um comentário"></textarea> <br/>
+
+					<input type="date" placeholder="Nascimento"><br/>
+					<button>Confirmar</button>
+					<!--<input type="submit" value="Confirmar">-->
+				
+				</form>
+			<hr/>
+			<div>
+				<article>	
+					<p>
+						é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+					</p>
+				</article>
+			</div>
+			
+			<div>
+			<article>
+					<p>
+						é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+					</p>
+				</article>
+			</div>
+
+		</section>
+		<footer>
+			&copy 2023 - Todos os direitos reservados.
+		</footer>
+	</body>
+</html>

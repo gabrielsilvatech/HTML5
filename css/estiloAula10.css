@@ -1,0 +1,135 @@
+#principal{
+	letter-spacing: 0.8em;
+	color: white;
+	text-align: center;
+	background-image: url(../imagens/fundo.jpg);
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+.titulo {
+	color: white;	
+	text-align: center;
+	background-color: gray;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+body{
+	font-family: Verdana;
+}
+
+h1{
+	text-align: center;
+}
+
+span{
+	text-transform: uppercase;
+	color: red;
+	font-size: 12px;
+}
+
+main {
+	background-color: white;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #000;
+	padding: 6px;
+}
+
+section{
+	clear: left;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+section>div {
+	margin-bottom: 12px;
+	float: left;
+}
+
+article{
+	width: 40%;
+	background-color: #9cf;
+	float: left;
+	margin-right: 8px;
+	padding: 6px;
+	border-radius: 6px;
+	height: 140px;
+}
+
+ul{
+	padding: 0px;
+}
+
+#logo {
+	position: absolute;
+	right: 30px;
+	top: 40px;
+}
+
+aside{
+	clear: left;
+	display: block;
+}
+
+#a1,#a2,#a3{
+	width: 150px;
+	height: 250px;
+	position: fixed;
+}
+
+#a1{
+	background-color: red;
+	top: 250px;
+	left: 850px;
+	z-index: 3;
+}
+
+#a2{
+	background-color: blue;
+	top: 300px;
+	left: 900px;
+	z-index: 2;
+}
+
+#a3{
+	background-color: orange;
+	top: 350px;
+	left: 950px;
+	z-index: 1;
+}
+
+input{
+	width: 250px;
+}
+
+.ajuste {
+	width: 40px;
+}
+
+@media only screen and (max-width:1000px) {
+	#logo {
+		display: none;
+	}
+
+	li, article {
+		clear: left;
+		height: auto;
+	}
+
+	#logo-relativo img{
+		width: 100%;
+	}
+
+}
+
